@@ -96,10 +96,10 @@ $ sudo update-alternatives --config java
 
 ---
 
-* ​
+* ​audio插件
 
 ```
-
+sudo apt-get install libpulse-dev
 ```
 
 ---
