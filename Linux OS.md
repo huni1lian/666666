@@ -45,7 +45,7 @@ sudo apt-get install gedit
 ​    获取hosts  ： [老D博客](https://laod.cn/hosts/2016-google-hosts.html)
 
 ```
-cd /etc/
+cd /etc/ 
 sudo gedit hosts
 ```
 
@@ -102,16 +102,29 @@ $ sudo update-alternatives --config java
 1 /usr/lib/jvm/java-6-openjdk/jre/bin/java 1061 手动模式
 2 /usr/lib/jvm/jdk1.8.0_05/bin/java 300 手动模式
 要维持当前值[*]请按回车键，或者键入选择的编号：2
+<<<<<<< HEAD:Linux OS.md
 
 ```
 
+=======
+如上所示，这样就设置好了要使用的java了。
+```
+
+---
+
+* ​audio插件
+
+```
+sudo apt-get install libpulse-dev
+```
+>>>>>>> origin/master:Elementary OS.md
 
 
 ## Steam
 
 ### Install
 
-```shELL
+​```shELL
  sudo apt-get install steam
  Fix // sudo apt-get install libgtk2.0-0:i386 libidn11:i386 libglu1-mesa:i386
 ```
