@@ -106,11 +106,24 @@ $ sudo update-alternatives --config java
 
 ```
 
-##  audio插件
+##  Audio 音频插件
 
 ```
 sudo apt-get install libpulse-dev
 ```
+
+
+## 安装 TLP 以延长电池寿命，减少发热
+
+```
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt-get update
+sudo apt-get install tlp tlp-rdw
+sudo tlp start
+```
+
+## ************************************************************************
+
 ## Steam
 
 ### Install
@@ -128,11 +141,10 @@ sudo apt-get install libpulse-dev
 
 
 
-## 安装 TLP 以延长电池寿命，减少发热
+ ***
 
-```
-sudo add-apt-repository ppa:linrunner/tlp
-sudo apt-get update
-sudo apt-get install tlp tlp-rdw
-sudo tlp start
-```
+# © Created by huni1lian
+
+## 2016年10月
+
+## 
